@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pension pour Chats - Accueil</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-white text-gray-700">
+
+  <!-- HEADER -->
+  <header class="bg-yellow-400 py-6 shadow-lg">
+    <div class="max-w-6xl mx-auto flex justify-between items-center px-4">
+      <h1 class="text-2xl font-bold text-gray-900">Pension Chaton’Home</h1>
+      <nav class="space-x-6">
+        <a href="#services" class="font-medium hover:text-gray-900">Services</a>
+        <a href="#galerie" class="font-medium hover:text-gray-900">Galerie</a>
+        <a href="#apropos" class="font-medium hover:text-gray-900">À propos</a>
+        <a href="#contact" class="font-medium hover:text-gray-900">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="bg-yellow-100">
+    <div class="max-w-6xl mx-auto text-center py-24 px-4">
+      <h2 class="text-4xl font-extrabold text-gray-900 mb-4">Une pension chaleureuse pour votre chat</h2>
+      <p class="text-lg text-gray-700 mb-8">Confort, sécurité et amour — comme à la maison.</p>
+      <a href="#contact" class="bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-semibold px-8 py-3 rounded-lg shadow">
+        Réserver un séjour
+      </a>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h3 class="text-3xl font-bold text-gray-900 text-center mb-12">Nos Services</h3>
+      <div class="grid md:grid-cols-3 gap-10">
+
+        <div class="p-6 bg-yellow-50 rounded-xl shadow text-center">
+          <h4 class="text-xl font-bold mb-3">Séjour court</h4>
+          <p>Idéal pour un week-end ou quelques jours. Confort garanti.</p>
+        </div>
+
+        <div class="p-6 bg-yellow-50 rounded-xl shadow text-center">
+          <h4 class="text-xl font-bold mb-3">Séjour long</h4>
+          <p>Une prise en charge complète pour les vacances ou déplacements prolongés.</p>
+        </div>
+
+        <div class="p-6 bg-yellow-50 rounded-xl shadow text-center">
+          <h4 class="text-xl font-bold mb-3">Soins & alimentation</h4>
+          <p>Repas adaptés, suivi quotidien, administration de soins si besoin.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERIE -->
+  <section id="galerie" class="py-20 bg-yellow-100">
+    <div class="max-w-6xl mx-auto px-4">
+      <h3 class="text-3xl font-bold text-gray-900 text-center mb-10">Galerie</h3>
+      <div class="grid md:grid-cols-3 gap-6">
+
+        <img src="https://placekitten.com/400/300" class="rounded-xl shadow">
+        <img src="https://placekitten.com/401/300" class="rounded-xl shadow">
+        <img src="https://placekitten.com/402/300" class="rounded-xl shadow">
+      
+      </div>
+    </div>
+  </section>
+
+  <!-- A PROPOS -->
+  <section id="apropos" class="py-20 bg-white">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h3 class="text-3xl font-bold text-gray-900 mb-6">À propos</h3>
+      <p class="text-lg text-gray-700 leading-relaxed">
+        Passionnée par les animaux depuis l’enfance, je me suis spécialisée dans l’accueil et le bien-être des chats.  
+        Votre compagnon est accueilli dans un environnement calme, sécurisé et chaleureux.
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-20 bg-yellow-50">
+    <div class="max-w-4xl mx-auto px-4">
+      <h3 class="text-3xl font-bold text-gray-900 text-center mb-8">Contact & Réservations</h3>
+
+      <form class="bg-white p-8 rounded-xl shadow grid gap-5">
+
+        <input type="text" placeholder="Nom" class="border p-3 rounded">
+        <input type="email" placeholder="Email" class="border p-3 rounded">
+        <textarea placeholder="Message" rows="5" class="border p-3 rounded"></textarea>
+
+        <button class="bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-semibold py-3 rounded">
+          Envoyer
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-900 text-white text-center py-6">
+    <p>Pension Chaton’Home © 2025 — Tous droits réservés.</p>
+  </footer>
+
+</body>
+</html>
